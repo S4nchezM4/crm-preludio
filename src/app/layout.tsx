@@ -30,8 +30,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 const metadata: Metadata = {
   title: {
-    default: "Café Preludio",
-    template: "%s — Café Preludio",
+    default: "WACRM | Café Preludio",
+    template: "WACRM | %s — Café Preludio",
   },
   robots: {
     index: false,
